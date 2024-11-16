@@ -1,0 +1,9 @@
+Seven.ecual 1 0.0053714
+seven.wda 1 0.0065704
+seven.equality 34 0.00548928
+seven.more 12 0.00569297
+seven.less_and_more 5 0.00515788
+seven.less 4 0.00581252
+seven.summ 5 0.00582564
+seven.sub 1 0.0080072
+---
