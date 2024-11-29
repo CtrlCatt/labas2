@@ -124,9 +124,9 @@ CMakeFiles/my_laba_2.dir/main.cpp.obj: C:\labas2\main.cpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ostream.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/istream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/istream.tcc \
+ C:\labas2\Seven.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/vector \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_uninitialized.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/vector.tcc \
- C:\labas2\Seven.h
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/vector.tcc

@@ -1,19 +1,17 @@
 #include <iostream>
-#include <vector>
 #include "Seven.h"
-
 
 int main()
 {
-     // Создание объектов
-    Seven obj1(5, 11111); // Создаст вектор [5, 4, 3, 2, 1]
-    Seven obj2(5, 55555); // Создаст вектор [1, 2, 3, 4, 5]
-    
+    // Создание объектов
+    Seven obj1(12345);
+    Seven obj2(67);
+
     // Демонстрация конструктора копирования
     Seven objCopy = obj1;
 
     // Демонстрация перемещения
-    Seven objMove(obj2);
+    Seven objMove(std::move(obj2));
 
     // Вывод
     std::cout << "obj1: ";
@@ -29,16 +27,24 @@ int main()
         std::cout << "Sum of obj1 and objCopy: ";
         sum.print();
 
-        Seven diff = obj1 - objCopy; // Вычитание
-        std::cout << "Difference of obj1 and objCopy: ";
+        Seven diff = obj1 - objMove; // Вычитание
+        std::cout << "Difference of obj1 and objMove: ";
         diff.print();
-        
+
         if (obj1 == objCopy) { // Сравнение
             std::cout << "obj1 and objCopy are equal." << std::endl;
         } else {
             std::cout << "obj1 and objCopy are not equal." << std::endl;
         }
-        
+
+        if (obj1 > objMove) {
+            std::cout << "obj1 is greater than objMove." << std::endl;
+        } else if (obj1 < objMove) {
+            std::cout << "obj1 is less than objMove." << std::endl;
+        } else {
+            std::cout << "obj1 and objMove are equal." << std::endl;
+        }
+
     } catch (const std::runtime_error& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }
